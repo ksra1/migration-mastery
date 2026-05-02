@@ -6,5 +6,17 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 
 export default defineConfig({
   base: "/migration-mastery/",
-  plugins: [tanstackStart(), react(), tsconfigPaths(), tailwindcss()],
+  plugins: [
+    tanstackStart({
+      prerender: {
+        enabled: true,
+        crawlLinks: true,
+        concurrency: 14,
+        failOnError: true,
+      },
+    }),
+    react(),
+    tsconfigPaths(),
+    tailwindcss(),
+  ],
 });

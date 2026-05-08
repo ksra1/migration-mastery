@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const telusLogo = "/brand/telus-digital.svg";
 
-const presentedTo = ["A", "B", "C"];
+const presentedTo = ["Todd Yard", "Chynna Jakowski", "Jyoti Singh"];
 
 export default function HeroSlide() {
   return (

@@ -75,11 +75,10 @@ export default function HeroSlide() {
           <div className="text-xs font-medium uppercase tracking-[0.28em] text-muted-foreground">
             Presented by
           </div>
-          <div className="mt-3 text-3xl font-semibold text-foreground">
+          <div className="mt-3 text-1xl font-semibold text-foreground">
             Sravan Kollapudi
           </div>
           <div className="mt-1 text-sm text-muted-foreground">
-            Senior Engineering Manager
           </div>
         </div>
         <div>

@@ -14,7 +14,7 @@ import {
   Boxes,
 } from "lucide-react";
 import { motion } from "framer-motion";
-const nextLogo = "/brand/nextjs.svg";
+const nextLogo = `${import.meta.env.BASE_URL}brand/nextjs.svg`;
 
 /* ---------- primitives ---------- */
 

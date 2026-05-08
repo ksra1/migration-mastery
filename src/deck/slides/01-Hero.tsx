@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-const telusLogo = "/brand/telus-digital.svg";
+const telusLogo = `${import.meta.env.BASE_URL}brand/telus-digital.svg`;
 
 const presentedTo = ["Todd Yard", "Chynna Jakowski", "Jyoti Singh"];
 

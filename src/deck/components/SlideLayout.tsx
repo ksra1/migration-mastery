@@ -13,23 +13,25 @@ export function SlideLayout({
 }) {
   return (
     <div
-      className={`relative h-full w-full overflow-hidden px-32 pt-32 pb-24 deck-grid-bg ${className}`}
+      className={`relative h-full w-full overflow-hidden px-32 pt-24 pb-24 deck-grid-bg flex flex-col ${className}`}
     >
       {(eyebrow || title) && (
-        <header className="mb-12">
+        <header className="mb-8 glass-strong p-8 rounded-2xl">
           {eyebrow && (
             <div className="mb-5 text-sm font-medium uppercase tracking-[0.28em] text-primary">
               {eyebrow}
             </div>
           )}
           {title && (
-            <h1 className="text-7xl font-bold tracking-tight text-gradient leading-[1.15] pb-2">
+            <h1 className="text-5xl font-bold tracking-tight text-gradient leading-[1.15] pb-2">
               {title}
             </h1>
           )}
         </header>
       )}
-      {children}
+      <div className="flex-1">
+        {children}
+      </div>
     </div>
   );
 }

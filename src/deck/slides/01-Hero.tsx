@@ -79,6 +79,7 @@ export default function HeroSlide() {
             Sravan Kollapudi
           </div>
           <div className="mt-1 text-sm text-muted-foreground">
+            Senior Engineering Manager
           </div>
         </div>
         <div>
